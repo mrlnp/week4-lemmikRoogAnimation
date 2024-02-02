@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(77, 33, 13, 0.83);
+}
+
+.container {
+    width: 20%;
+    margin: 20px auto;
+}
+
+.header {
+    text-align: center;
+    height: 250px;
+}
+
+.retsept-heading{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    animation: retsept;
+    animation-duration: 3s;
+    text-align: center;
+}
+
+@keyframes retsept {
+    0% {top: -250px}
+    100% {top: 15px}
+}
+
+img {width: 280px;}
+
+.tabel{
+    color: white;
+}
+
+.valmistamine{
+    color: white;
+}
+
+.link{
+    color: burlywood;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 1.5rem;
+    margin: 0rem;
+    padding: 0.5rem;
+    animation: link;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes link {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.footer {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    position: relative;
+    animation: footer;
+    animation-duration: 3s;
+}
+
+@keyframes footer {
+    0% {bottom: -250px}
+    100% {bottom: 5px}
+}
